@@ -19,5 +19,5 @@ _However_ remember that sometimes Github takes a few minutes, maybe ten whole mi
 
 ## Musings
 
-1. What is Open [GIScience?](musings/open-source.md)
-2. another future blog 
+1. [What is Open GIScience?](musings/open-source.md)
+2. another future blog
