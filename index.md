@@ -1,3 +1,8 @@
+---
+title: Main Page
+layout: default
+---
+
 # Jacob Freedman's Open Source GIS Portfolio
 Hello, I am Jacob Freedman and I am a student at Middlebury College participating in the Open Source GISscience.
 
