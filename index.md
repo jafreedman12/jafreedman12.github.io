@@ -6,13 +6,10 @@ layout: default
 # Jacob Freedman's Open Source GIS Portfolio
 Hello, I am Jacob Freedman and I am a student at Middlebury College participating in the Open Source GISscience.
 
-- [Gravity Model of Spatial Interaction](gravity/gravity.md)
-- item number two
+## GIScience Analyses
 
-1. first thing
-2. second thing
-3. third thing
-4. fourth thing
+1. [Gravity Model of Spatial Interaction](gravity/gravity.md)
+2. another future analysis
 
 The course website is found [here](https://gis4dev.github.io).
 
@@ -22,5 +19,5 @@ _However_ remember that sometimes Github takes a few minutes, maybe ten whole mi
 
 ## Musings
 
-- What is Open [GIScience?](musings/open-source.md)
-- another future blog 
+1. What is Open [GIScience?](musings/open-source.md)
+2. another future blog 
