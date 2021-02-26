@@ -9,6 +9,6 @@ Hello, I am Jacob Freedman and I am a student at Middlebury College participatin
 3. third thing
 4. fourth thing
 
-The course website is found [here](https://gis4dev.github.io)
+The course website is found [here](https://gis4dev.github.io).
 
 Thanks so much! Have a great rest of your day
