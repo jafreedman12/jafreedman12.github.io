@@ -1,7 +1,7 @@
 # Jacob Freedman's Open Source GIS Portfolio
 Hello, I am Jacob Freedman and I am a student at Middlebury College participating in the Open Source GISscience.
 
-- [Gravity Model of Spatial Interaction] (gravity/gravity.md) 
+- [Gravity Model of Spatial Interaction](gravity/gravity.md) 
 - item number two
 
 1. first thing
