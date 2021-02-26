@@ -11,4 +11,6 @@ Hello, I am Jacob Freedman and I am a student at Middlebury College participatin
 
 The course website is found [here](https://gis4dev.github.io).
 
-Thanks so much! Have a great rest of your day
+Thanks so much! Have a great rest of your day!
+
+_However_ remember that sometimes Github takes a few minutes, maybe ten whole minutes, to render changes to website.
