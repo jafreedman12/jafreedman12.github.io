@@ -3,4 +3,4 @@ layout: page
 title: Gravity Model of Spatial Interaction
 ---
 
-Some content:
+Some content: here it is!
