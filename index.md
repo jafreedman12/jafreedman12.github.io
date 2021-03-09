@@ -15,4 +15,4 @@ The course website is found [here](https://gis4dev.github.io).
 ## Musings
 
 1. [What is Open GIScience?](musings/open-source.md)
-2. [Is GIS a Reproducible Science?](musings/gis-reproducible-science.md)
+2. [Is GIS a Reproducible Science?](musings/gis_as_reproducible_science.md)
