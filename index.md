@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Jacob Freedman's Open Source GIS Portfolio
-Hello, I am Jacob Freedman and I am a student at Middlebury College. This website has been created for GEOG0323 - Open Source GISscience in Spring, 2021.
+Hello, my name is Jacob Freedman and I am a student at Middlebury College. This website has been created for GEOG0323 - Open Source GISscience in Spring, 2021.
 The course website is found [here](https://gis4dev.github.io).
 
 ## GIScience Analyses
