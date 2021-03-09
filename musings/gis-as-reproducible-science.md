@@ -6,6 +6,7 @@ date: Wednesday, March 10th, 2021
 
 ## Which category of “GIS as Science” most applies to the work you have done so far in this course or other courses using GIS? Do those forms of GIS count as “science”?
 
+Geographic information SYSTEMS vs. SCIENCE
 
 
 ## How can open source GIS contribute to solving problems of the reproducibility crisis?
