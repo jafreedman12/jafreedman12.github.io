@@ -24,7 +24,7 @@ I am passionate about community engagement, inclusive mapping, spatial analysis,
 - Explore [Treeline Terrains](https://www.treelineterrains.com/), a business I helped to start that is selling 3D, wood-carved models of mountains and landscapes across the world. We use open source software and a CNC router to create our models, and are working to help all people connect to the land they are on, no matter their ability.
 - Learn more about my work with the [Wild Hometown Movement](http://www.wildhometown.org/) and helping young people become leaders and changemakers for the future of local nature. In collaboration with the Academics for Land Protection in New England, we wrote a [toolkit](https://www.wildlandsandwoodlands.org/toolkit-for-student-leaders) to support young leaders to take action in their own hometowns. 
 - My senior thesis is about inclusive mapmaking and how we can bridge critical, cartographic theory into the nonprofit conservation world. Stay tuned for more updates!
-- My portfolio of work from GEOG 0351 - Remote Sensing, can be found [here](https://sites.middlebury.edu/geog351jafreedman/)
+- My portfolio of work from GEOG 0351 - Remote Sensing, can be found [here](https://sites.middlebury.edu/geog351jafreedman/).
 
 
 ### Land Acknowledgement
