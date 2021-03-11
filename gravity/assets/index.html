@@ -6,7 +6,7 @@
         <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
         html, body, #map {
@@ -16,13 +16,13 @@
             margin: 0;
         }
         </style>
-        <title>Hospital Cachement Zones in New England -- Gravity Model Map</title>
+        <title>Hospital Cachement Zone in New England -- Gravity Model Map</title>
     </head>
     <body>
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
-        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
         <script src="js/leaflet.rotatedMarker.js"></script>
         <script src="js/leaflet.pattern.js"></script>
         <script src="js/leaflet-hash.js"></script>
@@ -30,9 +30,9 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="data/northeast_dartmouth_cachement_zones_1.js"></script>
-        <script src="data/hospital_cachement_zones_2.js"></script>
-        <script src="data/hospitals_zipcodes_reproj_3.js"></script>
+        <script src="data/DartmouthHospitalZones_1.js"></script>
+        <script src="data/ModelHospitalZones_2.js"></script>
+        <script src="data/HospitalPoints_3.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -52,10 +52,11 @@
         }
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[41.00197039520493,-76.40881795442395],[43.39881252473338,-73.56698669642682]]);
+        }).fitBounds([[41.21091367266267,-73.91032466156355],[45.966640540189935,-68.9017182544305]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://jafreedman12.github.io" target="_blank">Jacob Freedman</a> &middot; <a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot;  <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
@@ -72,7 +73,7 @@
         });
         layer_OSMStandard_0;
         map.addLayer(layer_OSMStandard_0);
-        function pop_northeast_dartmouth_cachement_zones_1(feature, layer) {
+        function pop_DartmouthHospitalZones_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -99,36 +100,36 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_northeast_dartmouth_cachement_zones_1_0() {
+        function style_DartmouthHospitalZones_1_0() {
             return {
-                pane: 'pane_northeast_dartmouth_cachement_zones_1',
+                pane: 'pane_DartmouthHospitalZones_1',
                 opacity: 1,
-                color: 'rgba(42,57,223,0.4666666666666667)',
+                color: 'rgba(37,49,218,0.5372549019607843)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(114,155,111,0.0)',
+                fillColor: 'rgba(190,178,151,0.0)',
                 interactive: true,
             }
         }
-        map.createPane('pane_northeast_dartmouth_cachement_zones_1');
-        map.getPane('pane_northeast_dartmouth_cachement_zones_1').style.zIndex = 401;
-        map.getPane('pane_northeast_dartmouth_cachement_zones_1').style['mix-blend-mode'] = 'normal';
-        var layer_northeast_dartmouth_cachement_zones_1 = new L.geoJson(json_northeast_dartmouth_cachement_zones_1, {
+        map.createPane('pane_DartmouthHospitalZones_1');
+        map.getPane('pane_DartmouthHospitalZones_1').style.zIndex = 401;
+        map.getPane('pane_DartmouthHospitalZones_1').style['mix-blend-mode'] = 'normal';
+        var layer_DartmouthHospitalZones_1 = new L.geoJson(json_DartmouthHospitalZones_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_northeast_dartmouth_cachement_zones_1',
-            layerName: 'layer_northeast_dartmouth_cachement_zones_1',
-            pane: 'pane_northeast_dartmouth_cachement_zones_1',
-            onEachFeature: pop_northeast_dartmouth_cachement_zones_1,
-            style: style_northeast_dartmouth_cachement_zones_1_0,
+            dataVar: 'json_DartmouthHospitalZones_1',
+            layerName: 'layer_DartmouthHospitalZones_1',
+            pane: 'pane_DartmouthHospitalZones_1',
+            onEachFeature: pop_DartmouthHospitalZones_1,
+            style: style_DartmouthHospitalZones_1_0,
         });
-        bounds_group.addLayer(layer_northeast_dartmouth_cachement_zones_1);
-        map.addLayer(layer_northeast_dartmouth_cachement_zones_1);
-        function pop_hospital_cachement_zones_2(feature, layer) {
+        bounds_group.addLayer(layer_DartmouthHospitalZones_1);
+        map.addLayer(layer_DartmouthHospitalZones_1);
+        function pop_ModelHospitalZones_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -146,48 +147,48 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan ="2">Zip: ' + (feature.properties['TargetID'] !== null ? autolinker.link(feature.properties['TargetID'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Zip: ' + (feature.properties['TargetID'] !== null ? autolinker.link(feature.properties['TargetID'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan ="2">Beds: ' + (feature.properties['TargetWeig'] !== null ? autolinker.link(feature.properties['TargetWeig'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Beds: ' + (feature.properties['TargetWeig'] !== null ? autolinker.link(feature.properties['TargetWeig'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan ="2">Population: ' + (feature.properties['SumInputWe'] !== null ? autolinker.link(feature.properties['SumInputWe'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Population: ' + (feature.properties['SumInputWe'] !== null ? autolinker.link(feature.properties['SumInputWe'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_hospital_cachement_zones_2_0() {
+        function style_ModelHospitalZones_2_0() {
             return {
-                pane: 'pane_hospital_cachement_zones_2',
+                pane: 'pane_ModelHospitalZones_2',
                 opacity: 1,
-                color: 'rgba(65,181,112,0.5058823529411764)',
+                color: 'rgba(224,83,40,0.5529411764705883)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(196,60,57,0.0)',
+                fillColor: 'rgba(255,158,23,0.0)',
                 interactive: true,
             }
         }
-        map.createPane('pane_hospital_cachement_zones_2');
-        map.getPane('pane_hospital_cachement_zones_2').style.zIndex = 402;
-        map.getPane('pane_hospital_cachement_zones_2').style['mix-blend-mode'] = 'normal';
-        var layer_hospital_cachement_zones_2 = new L.geoJson(json_hospital_cachement_zones_2, {
+        map.createPane('pane_ModelHospitalZones_2');
+        map.getPane('pane_ModelHospitalZones_2').style.zIndex = 402;
+        map.getPane('pane_ModelHospitalZones_2').style['mix-blend-mode'] = 'normal';
+        var layer_ModelHospitalZones_2 = new L.geoJson(json_ModelHospitalZones_2, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_hospital_cachement_zones_2',
-            layerName: 'layer_hospital_cachement_zones_2',
-            pane: 'pane_hospital_cachement_zones_2',
-            onEachFeature: pop_hospital_cachement_zones_2,
-            style: style_hospital_cachement_zones_2_0,
+            dataVar: 'json_ModelHospitalZones_2',
+            layerName: 'layer_ModelHospitalZones_2',
+            pane: 'pane_ModelHospitalZones_2',
+            onEachFeature: pop_ModelHospitalZones_2,
+            style: style_ModelHospitalZones_2_0,
         });
-        bounds_group.addLayer(layer_hospital_cachement_zones_2);
-        map.addLayer(layer_hospital_cachement_zones_2);
-        function pop_hospitals_zipcodes_reproj_3(feature, layer) {
+        bounds_group.addLayer(layer_ModelHospitalZones_2);
+        map.addLayer(layer_ModelHospitalZones_2);
+        function pop_HospitalPoints_3(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -205,51 +206,51 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan ="2">Zip code: ' + (feature.properties['TargetID'] !== null ? autolinker.link(feature.properties['TargetID'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Zip code: ' + (feature.properties['TargetID'] !== null ? autolinker.link(feature.properties['TargetID'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan ="2">Number of beds: ' + (feature.properties['SumBeds'] !== null ? autolinker.link(feature.properties['SumBeds'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Number of beds: ' + (feature.properties['SumBeds'] !== null ? autolinker.link(feature.properties['SumBeds'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_hospitals_zipcodes_reproj_3_0() {
+        function style_HospitalPoints_3_0() {
             return {
-                pane: 'pane_hospitals_zipcodes_reproj_3',
-                radius: 0.4,
+                pane: 'pane_HospitalPoints_3',
+                radius: 3.0,
                 opacity: 1,
-                color: 'rgba(128,17,25,1.0)',
+                color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 2.0,
+                weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(219,30,42,1.0)',
+                fillColor: 'rgba(183,72,75,1.0)',
                 interactive: true,
             }
         }
-        map.createPane('pane_hospitals_zipcodes_reproj_3');
-        map.getPane('pane_hospitals_zipcodes_reproj_3').style.zIndex = 403;
-        map.getPane('pane_hospitals_zipcodes_reproj_3').style['mix-blend-mode'] = 'normal';
-        var layer_hospitals_zipcodes_reproj_3 = new L.geoJson(json_hospitals_zipcodes_reproj_3, {
+        map.createPane('pane_HospitalPoints_3');
+        map.getPane('pane_HospitalPoints_3').style.zIndex = 403;
+        map.getPane('pane_HospitalPoints_3').style['mix-blend-mode'] = 'normal';
+        var layer_HospitalPoints_3 = new L.geoJson(json_HospitalPoints_3, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_hospitals_zipcodes_reproj_3',
-            layerName: 'layer_hospitals_zipcodes_reproj_3',
-            pane: 'pane_hospitals_zipcodes_reproj_3',
-            onEachFeature: pop_hospitals_zipcodes_reproj_3,
+            dataVar: 'json_HospitalPoints_3',
+            layerName: 'layer_HospitalPoints_3',
+            pane: 'pane_HospitalPoints_3',
+            onEachFeature: pop_HospitalPoints_3,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_hospitals_zipcodes_reproj_3_0(feature));
+                return L.circleMarker(latlng, style_HospitalPoints_3_0(feature));
             },
         });
-        bounds_group.addLayer(layer_hospitals_zipcodes_reproj_3);
-        map.addLayer(layer_hospitals_zipcodes_reproj_3);
+        bounds_group.addLayer(layer_HospitalPoints_3);
+        map.addLayer(layer_HospitalPoints_3);
             var title = new L.Control();
             title.onAdd = function (map) {
                 this._div = L.DomUtil.create('div', 'info');
@@ -282,7 +283,7 @@
             };
             abstract.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/hospitals_zipcodes_reproj_3.png" /> Hospitals in each zip code': layer_hospitals_zipcodes_reproj_3,'<img src="legend/hospital_cachement_zones_2.png" /> Gravity model - hospital cachement zones': layer_hospital_cachement_zones_2,'<img src="legend/northeast_dartmouth_cachement_zones_1.png" /> Dartmouth cachement zones': layer_northeast_dartmouth_cachement_zones_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/HospitalPoints_3.png" /> Hospital Points': layer_HospitalPoints_3,'<img src="legend/ModelHospitalZones_2.png" /> Model Hospital Zones': layer_ModelHospitalZones_2,'<img src="legend/DartmouthHospitalZones_1.png" /> Dartmouth Hospital Zones': layer_DartmouthHospitalZones_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
