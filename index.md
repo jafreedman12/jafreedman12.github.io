@@ -16,7 +16,11 @@ The course website is found [here](https://gis4dev.github.io).
 1. [What is Open GIScience?](musings/open-source.md)
 2. [Is GIS a Reproducible Science?](musings/gis-as-reproducible-science.md)
 
+
+### Land Acknowledgement
+The analyses and research for this course are taking place on the lands of the Abenaki people, in what is now known as Middlebury, Vermont.
+
 ### Data Disclaimer
 Maps have transformational power to reimagine our relationships to the land we are on, simultaneously influencing what the future of our world could look like. I recognize that the representations of space and time in these analyses represent one of many stories about the history of this place and the people who have called these places home. Generations of implicit and explicit erasure have been intended to shroud the origins of many of the data layers represented in these maps. As I strive to build a more equitable land conservation and GIS movement, I are committed to examining the data acquisition and visualization practices I have inherited and repairing our relationships to the people and places around us. 
 
-### Land Acknowledgement
+
