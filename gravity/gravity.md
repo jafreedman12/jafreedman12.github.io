@@ -7,24 +7,21 @@ The purpose of these two models is to create hospital service zones in line with
 
 These models can be viewed here:
 
-**[Hospital Preprocessing Model](https://jafreedman12.github.io/gravity/gravity_models/preprocess_hospital_data_v2.model3)**
+### [Hospital Preprocessing Model](https://jafreedman12.github.io/gravity/gravity_models/preprocess_hospital_data_v2.model3)
 ![Image of Hospital Preprocessing model](https://jafreedman12.github.io/gravity/gravity_models/hospdata_preprocess.png)
 
 The hospital points from the [U.S. Department of Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0) were processed to only include hospitals servicing the widest proportion of people (Critical Access, Long Term Care, General Acute Care, Children, Women). This excludes psychiatric, military, and rehabilitation hospitals. All hospitals that have zero beds or are closed are excluded from this analysis. The hospitals are aggregated by zip code and the number of beds from all hospitals in the given zip code are summarized.
 
 
-**[Simplified Distance Matrix](https://jafreedman12.github.io/gravity/gravity_models/distance_matrix_potentialzones_v2.model3)**
+### [Simplified Distance Matrix](https://jafreedman12.github.io/gravity/gravity_models/distance_matrix_potentialzones_v2.model3)
 ![Image of Simplified Distance Matrix model](https://jafreedman12.github.io/gravity/gravity_models/distmatrix_image.png)
 
 This model takes the simplified hospital points (as created above) and town boundaries with population data as gathered from the [ACS 2018 5-year average](https://gis4dev.github.io/lessons/02a_gravitymodel.html). By creating a distance matrix of the hospitals and nearest 20 towns, the potential for visitation is calculated with the weight from number of beds (in hospitals) and population (in each town). The service regions are the aggregations of towns that have the highest potential to visit a given hospital/hospital zip code region.
 
-When our model is compared to the service regions given by the Dartmouth Health Atlas, there are some apparent discrepancies. Our hospital preprocessing model constructs the centroid of all the hospitals in the given area (zip codes here) and assigns the number of beds of all hospitals in the zip code to the central point. This creates some errors in hospital service regions, as these zip codes can be very spatially close to one another.
+### Analysis
+When our model is compared to the service regions given by the Dartmouth Health Atlas, there are some apparent discrepancies. Our hospital preprocessing model constructs the centroid of all the hospitals in the given area (zip codes here) and assigns the number of beds of all hospitals in the zip code to the central point. This creates some errors in hospital service regions, as these zip codes can be very spatially close to one another. Our analysis does not exclude bodies of water, implying that the friction for travel over lakes, oceans, and rivers is equal to friction of travel over land.
 
-For example, in Central and Western Massachusetts in Worcester and Springfield, hospitals that are 
-
-the vast majority of patients go to hospitals within the 01605 Zip Code (UMass Medical, UMass Memorial, St. Vincent's), but a small number of patients in Leicester and Clinton appear more likely to go to their local, ~40 bed hospitals. ![Central Massachusetts Hospital zones](put the image link). Our analysis does not exclude bodies of water, implying that the friction for travel over lakes, oceans, and rivers is equal to friction of travel over land.
-
-I would imagine that the Dartmouth Cachement Zones were created with the 'hub and spoke' model, weighting certain hospitals more highly not just by the number of beds but also the services they can provide. In the example provided above, the Leicester and Clinton hospitals would likely be excluded in favor of the larger hospitals in Worcester. 
+I would imagine that the Dartmouth Cachement Zones were created with the 'hub and spoke' model and the exact zip codes of patients, weighting certain hospitals more highly not just by the number of beds but also the services they can provide. For example, hospitals that have the capacity to handle higher levels of trauma generally have more beds, though this is not always the case with specialized hospitals. 
 
 Data sources (and collaboration!):
 - The town boundaries and population data for this analysis was retrieved from the [ACS 2018 5-year average](https://gis4dev.github.io/lessons/02a_gravitymodel.html). 
