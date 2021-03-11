@@ -3,17 +3,17 @@ layout: page
 title: Gravity Model of Spatial Interaction
 ---
 
-The purpose of these two models is to create hospital service zones in line with those created by researchers at the Dartmouth Institute for Health Policy and Clinical Practice. The model for [preprocessing hospital data](https://jafreedman12.github.io/gravity/gravity_models/preprocess_hospital_data.model3) consolidates the number of beds from hospitals in a given zip code into one, central point for the zip code. The [simplified distance matrix](https://jafreedman12.github.io/gravity/gravity_models/distance_matrix_potentialzones.model3) creates hospital service zones based on the friction of distance between the centralized hospital points and surrounding towns. Each hospital cachement zone is constructed of the towns have the highest potential to go to that hospital. You can view the final map [here](assets/).
+The purpose of these two models is to create hospital service zones in line with those created by researchers at the Dartmouth Institute for Health Policy and Clinical Practice. The model for [preprocessing hospital data](https://jafreedman12.github.io/gravity/gravity_models/preprocess_hospital_data_v2.model3) consolidates the number of beds from hospitals in a given zip code into one, central point for the zip code. The [simplified distance matrix](https://jafreedman12.github.io/gravity/gravity_models/distance_matrix_potentialzones_v2.model3) creates hospital service zones based on the friction of distance between the centralized hospital points and surrounding towns. Each hospital cachement zone is constructed of the towns have the highest potential to go to that hospital. You can view the final map [here](assets/).
 
 These models can be viewed here:
 
-**[Hospital Preprocessing Model](https://jafreedman12.github.io/gravity/gravity_models/preprocess_hospital_data.model3)**
+**[Hospital Preprocessing Model](https://jafreedman12.github.io/gravity/gravity_models/preprocess_hospital_data_v2.model3)**
 ![Image of Hospital Preprocessing model](https://jafreedman12.github.io/gravity/gravity_models/hospdata_preprocess.png)
 
 The hospital points from the [U.S. Department of Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0) were processed to only include hospitals servicing the widest proportion of people (Critical Access, Long Term Care, General Acute Care, Children, Women). This excludes psychiatric, military, and rehabilitation hospitals. All hospitals that have zero beds or are closed are excluded from this analysis. The hospitals are aggregated by zip code and the number of beds from all hospitals in the given zip code are summarized.
 
 
-**[Simplified Distance Matrix](https://jafreedman12.github.io/gravity/gravity_models/distance_matrix_potentialzones.model3)**
+**[Simplified Distance Matrix](https://jafreedman12.github.io/gravity/gravity_models/distance_matrix_potentialzones_v2.model3)**
 ![Image of Simplified Distance Matrix model](https://jafreedman12.github.io/gravity/gravity_models/distmatrix_image.png)
 
 This model takes the simplified hospital points (as created above) and town boundaries with population data as gathered from the [ACS 2018 5-year average](https://gis4dev.github.io/lessons/02a_gravitymodel.html). By creating a distance matrix of the hospitals and nearest 20 towns, the potential for visitation is calculated with the weight from number of beds (in hospitals) and population (in each town). The service regions are the aggregations of towns that have the highest potential to visit a given hospital/hospital zip code region.
