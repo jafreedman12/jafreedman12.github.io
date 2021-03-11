@@ -26,4 +26,5 @@ I would imagine that the Dartmouth Cachement Zones were created with the 'hub an
 ### Data sources (and collaboration!):
 - The town boundaries and population data for this analysis was retrieved from the [ACS 2018 5-year average](https://gis4dev.github.io/lessons/02a_gravitymodel.html).
 - Hospital points were retrieved from the [U.S. Department of Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0).
-- Hospital Service Area boundaries were gathered from the [Dartmouth Atlas of Healthcare website](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries), using HSA zones. Additional credit is given to the participants and instructors of the GEOG0323 - Open Source GISciences course at Middlebury College (Spring, 2021). Without their help, none of this modeling would have been possible.
+- Hospital Service Area boundaries were gathered from the [Dartmouth Atlas of Healthcare website](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries), using HSA zones. 
+- Additional credit is given to the participants and instructors of the GEOG0323 - Open Source GISciences course at Middlebury College (Spring, 2021). Without their help, none of this modeling would have been possible.
