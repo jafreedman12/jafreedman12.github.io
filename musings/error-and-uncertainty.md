@@ -14,20 +14,13 @@ Through my senior thesis, I am researching inclusive mapping in the field of env
 In doing research with Professor Jessica L'Roe, much of our data about field research in East Africa comes from hand-written notes that are digitized and geocoded. Creating "accurate" spatial data requires many steps -- field assistants interviewing local community members, photocopying these paper notes, sending .pdfs through WhatsApp, digitizing these notes into a usable CSV file, and validating these data with GPS points for each surveyed household. This spatial is then re-transmitted as maps to field researchers for validation, inevitably leading to re-evaluating and processing of data. Add in language translation (at times), and there are many minds that this data has to go through before use in GIS. I know first-hand how much uncertainty there can be in spatial data and how much energy is required to validate these uncertainties. 
 
 
-### What responsibilties do geographers have with regards to uncertainty in research?
-Deeper investigation of data sources and accuracy -- there's been an ecouragement to be accuracte to 0.5mm at scale of map, but this doesnt always mean a point is where it should be. As scale of map increases 1:100 --> 1:10000000, that 0.5mm accuracy means something different. Maybe off by 0.5m on the groud in 1:100, but off by 5000m in 1:10000000
-lots of data that isnt well documented
-internal validation of errors with GIS
-uncertain vs. crisp bounaries -- putting data disclaimers into work, explaining why they make the choices they do. Openly acknowledge uncertainty in data -- ask for questioning and confirmation in all our research
+### What responsibilties do geographers have with regards to uncertainty in research? What strategies might geographers use to fulfill those responsibilities?
 
-
-- ## What strategies might geographers use to fulfill those responsibilities?
-- spatial autocorrelation -- relationships of errors at different places --> spatial elevation errors in DEMS often happen in patterns, not every unique pixel
-- Confusion matrices
-- accuracy and precision -- GPS that always gives same reading @ elevation (precise), but is 5m too high (inaccurate)
+I believe that geographers have the responsibility to do a deeper investigation into the accuracy and origins of data sources. For example, as suggested in the reading, there's a general assumption that maps are accuracte to 0.5mm at the scale of map, but this does not always mean a point is where it should be. As scale of map increases (1:100 --> 1:10000000), that 0.5mm accuracy means something different. The map may be off by 0.5m on the ground at a 1:100 scale, but off by 5000m in the 1:10000000 scale. In terms of data validation, some specific tools geographers can use are spatial autocorrelation to assess the relationships of errors between pixels, confusion matrices for ground truthing, and testing the accuracy and precision of all our tools (e.g. GPS). As geographic analyses often make the data origin and representation fuzzy, it is the role of the geographer to put data disclaimers into their work and explain why we make the choices we do. By openly acknowledging uncertainty in data (instead of hiding behind a shroud that all data is accurate), we can more deeply investigate the validity of our research and build a more open, collaborative working environment.
 
 
 ### Works cited:
 
 - NASEM. 2019. Reproducibility and Replicability in Science. Washington, D.C.: National Academies Press. https://www.nap.edu/catalog/25303.
 - Longley, P. A., M. F. Goodchild, D. J. Maguire, and D. W. Rhind. 2008. Geographical information systems and science 2nd ed. Chichester: Wiley. (only chapter 6: Uncertainty, pages 127-153)
+- Research and conversations with J. L'Roe, M. Schnure, M. Pearce, J. Howarth, D. Suarez, T. Affolter, M. Lapin
