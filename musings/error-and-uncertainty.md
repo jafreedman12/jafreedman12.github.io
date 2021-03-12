@@ -6,6 +6,9 @@ date: Friday, March 12th, 2021
 
 The ways in which space is represented are never complete. It is impossible to make an accurate representation of the world, as you can never tell every story of every place with one map. In GIS, there is uncertainty with data accuracy and precision, from how ecosystem boundaries are represented as firm lines (even though these boundaries are fuzzy) to accuracy with tools (remote sensing imagery, GPS), to which stories are told. There is a common misconception that maps are an objective view of the world. In fact, data analysts and map makers are often forced to make subjective assumptions based on the constraints of GIS and output maps. In figure 6.1 in Longley et al. (2008), geographer Gerard Huevelink illustrates how our representations of reality (e.g. maps) are actually massive distortions of reality, as data processing, analysis, and publication shifts the original intent of the map.  I'd go one step further to say this is a cycle, as our perceptions of the world around us are shaped by maps and representations we've seen before. Maps from the past influence how we perceive the world today, which are further distorted by maps we make today that go through many iterations of processing.
 
+Longley et al. (2008). Figure 6.1. Created by Gerard Hueveling
+![Image of how data uncertainty grows over time.](https://jafreedman12.github.io/musings/longley-fig6pt1-2008.png)
+
 
 ### First-hand knowledge with uncertaininty in spatial research
 
