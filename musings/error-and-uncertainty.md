@@ -4,33 +4,17 @@ title: Error and Uncertainty in GIS
 date: Friday, March 12th, 2021
 ---
 
-- ways that space is represented are never complete -- leads to uncertainty, creates problems
-- impossible to make an accurate representation of the world -- you can never tell every story of every place with one map
+The ways in which space is represented are never complete. It is impossible to make an accurate representation of the world, as you can never tell every story of every place with one map. In GIS, there is uncertainty with data accuracy and precision, from how ecosystem boundaries are represented as firm lines (even though these boundaries are fuzzy) to accuracy with tools (remote sensing imagery, GPS), to which stories are told. There is a common misconception that maps are an objective view of the world. In fact, data analysts and map makers are often forced to make subjective assumptions based on the constraints of GIS and output maps. In figure 6.1 in Longley et al. (2008), geographer Gerard Huevelink illustrates how our representations of reality (e.g. maps) are actually massive distortions of reality, as data processing, analysis, and publication shifts the original intent of the map.  I'd go one step further to say this is a cycle, as our perceptions of the world around us are shaped by maps and representations we've seen before. Maps from the past influence how we perceive the world today, which are further distorted by maps we make today that go through many iterations of processing.
 
 
-I am particularly interested in your interpretation and reaction to figure 6.1 in Longley et al (2008) with regards to the three questions/prompts below:
+### First-hand knowledge with uncertaininty in spatial research
 
-- accuracy -- discrepancy of reality and our representation of reality (Gerard Heuvelink)
-- real world to analysis leads to data distortion. I'd go one step further to say this is a cycle -- there are a lot of distortions in regards to understandings of the "real world" going into this, as our perceptions of the world around us are shaped by maps and representations we've seen before. 
+Through my senior thesis, I am researching inclusive mapping in the field of environmental conservation. A big issue with maps is that they are taken to be a completely factual representation of a place, and cartographers do little to dissuade these assumptions. There are many scenarios where the quality of data is inadvertantly (or intentionally) obscured, making it challenging for future generations to understand the legitimacy of the data.  Be it vagueness in plottable data (aggregation of point features, fuzzy boundaries made firm, hidden histograms for choropleth maps, etc.) to innacurate units of analysis, to automations of spatial representations that are not accurately field tested, there are lots of opportunities for distortion in spatial analyses.  For many cultures, representations of space and relationships cannot always be shown in a 2D, grid-coordinate based way. There are many relationships and units that go beyond the spatially plottable.
 
-- ## Do you have first-hand knowledge or experience with uncertainty in spatial/geographic research?
-
-In many cases
-
-Through my senior thesis, I am researching inclusive mapping in the field of environmental conservation. A big issue with maps is that they are taken to be a completely factual representation of a place, and cartographers do little to dissuade these assumptions. 
-
-- Data quality -- helping people understand legitimacy of data. Lots of scenarios where its obscured
-- units of analysis are incredibly important, also lead to distortion
-representation of space/relationships can't always be shown in a 2D, grid/coordinate based way -- there are relationships and units that go beyond the spatially plottable
-- vagueness in plottable data (aggregation, boundaries, etc.)
-- historic data -- how do we make accurate data-driven maps of the past
-- automations of represenations. Fuzzy, subjective probabilities (i.e. soil mapping). Field testing with remote sensing can help -- assessing accuracy
-- crisp drawing of boundaries is frequent when there arent crisp boundaries. Raster vs. Vector -- raster might have more info/accurate/up-front abt probabilities, but vector seems easier to read, maybe more of a generalization
-- Confusion matrices
-- accuracy and precision -- GPS that always gives same reading @ elevation (precise), but is 5m too high (inaccurate)
+In doing research with Professor Jessica L'Roe, much of our data about field research in East Africa comes from hand-written notes that are digitized and geocoded. Creating "accurate" spatial data requires many steps -- field assistants interviewing local community members, photocopying these paper notes, sending .pdfs through WhatsApp, digitizing these notes into a usable CSV file, and validating these data with GPS points for each surveyed household. This spatial is then re-transmitted as maps to field researchers for validation, inevitably leading to re-evaluating and processing of data. Add in language translation (at times), and there are many minds that this data has to go through before use in GIS. I know first-hand how much uncertainty there can be in spatial data and how much energy is required to validate these uncertainties. 
 
 
-- ## What responsibilties do geographers have with regards to uncertainty in research?
+### What responsibilties do geographers have with regards to uncertainty in research?
 Deeper investigation of data sources and accuracy -- there's been an ecouragement to be accuracte to 0.5mm at scale of map, but this doesnt always mean a point is where it should be. As scale of map increases 1:100 --> 1:10000000, that 0.5mm accuracy means something different. Maybe off by 0.5m on the groud in 1:100, but off by 5000m in 1:10000000
 lots of data that isnt well documented
 internal validation of errors with GIS
@@ -38,7 +22,9 @@ uncertain vs. crisp bounaries -- putting data disclaimers into work, explaining 
 
 
 - ## What strategies might geographers use to fulfill those responsibilities?
-spatial autocorrelation -- relationships of errors at different places --> spatial elevation errors in DEMS often happen in patterns, not every unique pixel
+- spatial autocorrelation -- relationships of errors at different places --> spatial elevation errors in DEMS often happen in patterns, not every unique pixel
+- Confusion matrices
+- accuracy and precision -- GPS that always gives same reading @ elevation (precise), but is 5m too high (inaccurate)
 
 
 ### Works cited:
