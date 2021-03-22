@@ -10,6 +10,7 @@ The course website is found [here](https://gis4dev.github.io).
 ## GIScience Analyses
 
 1. [Gravity Model of Spatial Interaction](gravity/gravity.md)
+2. [Replicating the Rosgen Classification System](https://github.com/jafreedman12/RE-rosgen/blob/main/docs/report/HEGSRR-Replication-Report.md)
 
 ## Musings
 
