@@ -11,7 +11,7 @@ The course website is found [here](https://gis4dev.github.io).
 
 1. [Gravity Model of Spatial Interaction](gravity/gravity.md)
 2. [Replicating the Rosgen Classification System](re-rosgen_report/HEGSRR-Replication-Report_publish.md)
-3. [Schools and flooding in Dar es Salaam](daressaalam/daressalaam_rept.md)
+3. [Schools and flooding in Dar es Salaam](daressaalam/report.md)
 
 ## Musings
 
