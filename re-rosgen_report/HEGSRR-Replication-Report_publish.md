@@ -53,7 +53,7 @@ The river classifications in this study were determined from stream characterist
 
 Table 01. Ratios used in Rosgen Classification System
 | Ratio type | Calculation |
-| :-: | :-: |
+| --- | --- |
 | Entrenchment Ratio | width of flood-prone area/width of bankfull river, where the width of the flood-prone area is determined at twice the maximum bankfull depth |
 | Width / Depth Ratio | bankfull width/bankfull depth |
 | Sinuosity | channel length/valley length |
@@ -129,7 +129,7 @@ Table 2. Site Measurements
 
 Table 3. Rosgen Level I Classification
 | Criteria | Value | equation |
-| :-: | :-: | :-: |
+| --- | --- | --- |
 | Entrenchment Ratio | 325/8.0755= 40.23497 |  
 | Width / Depth Ratio | 8.0755/0.4031=20.03349 |  bankfull width/bankfull average depth |
 | Sinuosity | 306.66/230.17=1.33232 | channel length/valley length |
@@ -137,7 +137,7 @@ Table 3. Rosgen Level I Classification
 
 Table 4. Rosgen Level II Classification
 | Criteria | Value |
-| :-: | :-: |
+| --- | --- |
 | Slope | 0.0074 (0.74%) |
 | Channel Material | Gravel |
 | Level II Stream Type | C4 |
