@@ -40,7 +40,7 @@ The data from this original analysis can be found in our publicly-available ["Re
 ## Sampling Plan and Data Description
 
  Figure 1: Point of analysis (Location 13) in the CHaMP dataset in the MFJD watershed
- ![Image of Locator Map, showing Point 13 (orange) in MFJD watershed](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig01_locatormap.png)
+ ![Image of Locator Map, showing Point 13 (orange) in MFJD watershed](assets/fig01_locatormap.png)
 
 The data collected for this analysis was performed primarily using the CHaMP dataset of river depth and quality throughout the John Day watershed, a dataset created in the monitoring of salmon populations. 33 sites were randomly selected by Kasprak et al. (2016), and in our class of 18 students, we were each [randomly assigned](https://gis4dev.github.io/lessons/04b_rosgen_GRASS_R.html) a study site for this analysis. I was assigned Location 13 (Figure 1). 10m DEM data is publicly available across the United States through the [USGS 3DEP program] (https://apps.nationalmap.gov/downloader/#/). We received this [DEM as pre-processed LiDAR](https://github.com/jafreedman12/RE-rosgen/tree/main/data/raw/private) for the extent of the John Day watershed at a 1m pixel resolution, though the authors state they used 10m and 0.1m pixels for their DEM analyses. This 0.1m DEM was likely derived from LiDAR point cloud data.
 
@@ -94,25 +94,25 @@ This result does not match the classification for this point from the classifica
 ## Figures and Tables
 
 Figure 2: Slope at location 13
-![Figure 2: Slope at location 13](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig2_slope_loc13.png)
+![Figure 2: Slope at location 13](assets/fig2_slope_loc13.png)
 
 Figure 3: Shaded elevation at location 13
-![Figure 3: Shaded elevation at location 13](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig3_shadedElev_loc13.png)
+![Figure 3: Shaded elevation at location 13](assets/fig3_shadedElev_loc13.png)
 
 Figure 4: Composite stream centerline
-![Figure 4: Composite stream centerline](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig4_stream_centerline_loc13.png)
+![Figure 4: Composite stream centerline](assets/fig4_stream_centerline_loc13.png)
 
 Figure 5: Composite valley centerline
-![Figure 5: Composite valley centerline](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig5_valley_centerline.png)
+![Figure 5: Composite valley centerline](assets/fig5_valley_centerline.png)
 
 Figure 6: Longitudinal profile of river
-![Figure 6: Longitudinal profile of river](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig6_longprof_graph_elev_slope.png)
+![Figure 6: Longitudinal profile of river](assets/fig6_longprof_graph_elev_slope.png)
 
 Figure 7: Cross-sectional river profile
-![Figure 7: Cross-sectional river profile](https://github.com/jafreedman12/RE-rosgen/blob/main/results/maps/fig7_cross_sect_profile_graph.png)
+![Figure 7: Cross-sectional river profile](assets/fig7_cross_sect_profile_graph.png)
 
 Figure 8: Annotated flow chart of Rosgen Classification System
-![Figure 8: Annotated flow chart of Rosgen Classification System](https://github.com/jafreedman12/RE-rosgen/blob/main/results/figures/Key_to_Rosgen_Classification.jpeg)
+![Figure 8: Annotated flow chart of Rosgen Classification System](assets/Key_to_Rosgen_Classification.jpeg)
 
 
 Table 2. Site Measurements
