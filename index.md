@@ -10,6 +10,7 @@ The course website is found [here](https://gis4dev.github.io).
 ## GIScience Analyses
 
 1. [Gravity Model of Spatial Interaction](gravity/gravity.md)
+2. [Replicating the Rosgen Classification System](https://github.com/jafreedman12/RE-rosgen/blob/main/docs/report/HEGSRR-Replication-Report.md)
 
 ## Musings
 
@@ -29,7 +30,10 @@ I am passionate about community engagement, inclusive mapping, spatial analysis,
 
 
 ### Land Acknowledgement
-The analyses and research for this course are taking place on the lands of the Abenaki people, in what is now known as Middlebury, Vermont.
+The analyses and research for this course are taking place on the lands of the Abenaki people, in what is now known as Middlebury, Vermont. The Abenaki people have called this land home since time immemorial, and I recognize the continued legacies of harm from forced removal, genocide, and erasure, as caused by generations of European settler-colonialism. I honor the continued presence of the Abenaki people on these lands and am committed to fulfilling my obligations as a visitor on this land and waters today.
+
+This land acknowledgement is in progress and will be updated throughout the semester to reflect future analyses.
+
 
 ### Data Disclaimer
-Maps have transformational power to reimagine our relationships to the land we are on, simultaneously influencing what the future of our world could look like. I recognize that the representations of space and time in these analyses represent one of many stories about the history of this place and the people who have called these places home. Generations of implicit and explicit erasure have been intended to shroud the origins of many of the data layers represented in these maps. As I strive to build a more equitable land conservation and GIS movement, I are committed to examining the data acquisition and visualization practices I have inherited and repairing our relationships to the people and places around us. 
+Maps have transformational power to reimagine our relationships to the land we are on, simultaneously influencing what the future of our world could look like. I recognize that the representations of space and time in these analyses represent one of many stories about the history of this place and the people who have called these places home. Generations of implicit and explicit erasure have been intended to shroud the origins of many of the data layers represented in these maps. As I strive to build a more equitable land conservation and GIS movement, I am committed to examining the data acquisition and visualization practices I have inherited and repairing our relationships to the people and places around us. 
