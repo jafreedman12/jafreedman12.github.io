@@ -143,10 +143,10 @@ The code used for this reproduction can be found [here](https://github.com/jafre
 ### Figure 4: Adaptive Capacity
 
 ***map of adaptive capacity by traditional authority in 2010, analagous to figure 4 of the original study***
-![Reproduction of Fig. 4: Adaptive capacity scores](https://github.com/jafreedman12/RP-Malcomb/blob/main/results/maps/ac_2010.png)
+![Reproduction of Fig. 4: Adaptive capacity scores](assets/ac_2010.png)
 
 ***map of difference between your figure 4 and the original figure 4***
-![Difference between Fig. 4 by Malcomb et al. (2014) and by Reproduction](https://github.com/jafreedman12/RP-Malcomb/blob/main/results/maps/difference_ac_2010.png)
+![Difference between Fig. 4 by Malcomb et al. (2014) and by Reproduction](assets/difference_ac_2010.png)
 
 ***Confusion Matrix***
 
@@ -194,13 +194,13 @@ ta = mutate(ta, capacity_2010_brks = case_when(
 ### Figure 5: Vulnerability to Climate Change
 
 ***map of vulnerability in Malawi, analogous to figure 5 of the original study***
-![reproduction of Fig. 5: Vulnerability to climate disasters](https://github.com/jafreedman12/RP-Malcomb/blob/main/results/maps/vulnerability.png)
+![reproduction of Fig. 5: Vulnerability to climate disasters](assets/vulnerability.png)
 
 ***map of difference between your figure 5 and the original figure 5***
-![Difference between Fig. 5 by Malcomb et al. (2014) and by reproduction](https://github.com/jafreedman12/RP-Malcomb/blob/main/results/maps/difference_vulnerability.png)
+![Difference between Fig. 5 by Malcomb et al. (2014) and by reproduction](assets/difference_vulnerability.png)
 
 ***Scatterplot of difference of results for Fig. 5***
-![Scatterplot of difference of results from Figure 5](https://github.com/jafreedman12/RP-Malcomb/blob/main/results/figures/fig5_diff_scatterplot.png)
+![Scatterplot of difference of results from Figure 5](assets/fig5_diff_scatterplot.png)
 
 ***Spearman's Rho coefficients:***
 Spearman's Rho, Comparing figure 5: 0.2244
@@ -222,7 +222,7 @@ Though we have listed our original workflow prior to analysis above, this was no
 
 
 ***Table 2 from Malcomb et al.(2014) -- Calculating Household Resilience Score***
-![Household Resilience Score table](https://github.com/jafreedman12/RP-Malcomb/blob/main/results/figures/malcomb_hh_resilience_score.png)
+![Household Resilience Score table](assets/malcomb_hh_resilience_score.png)
 
 ***Process Adaptive Capacity***
 1. Bring in DHS Data [Households Level] (vector)
