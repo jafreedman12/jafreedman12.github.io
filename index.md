@@ -20,6 +20,7 @@ The course website is found [here](https://gis4dev.github.io).
 2. [Is GIS a Reproducible Science?](musings/gis-as-reproducible-science.md)
 3. [Error and Uncertainty in GIS](musings/error-and-uncertainty.md)
 4. [Using Twitter Data for Spatial Analysis](musings/spatial-twitter-blog.md)
+5. [Uncertainty in Humanitarian GIS](musings/uncertainty-humanitarian-gis.md)
 
 ### More about me!
 
