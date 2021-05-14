@@ -4,7 +4,7 @@ title: Discussing Mei-Po Kwan's talk
 date: May 14th, 2021
 ---
 
-# Use the blog post to briefly summarize the talks and to think of good questions to pose in the debate.
+## Summarizing Mei-Po Kwan's talk on spatial data privacy in COVID-19
 
 In [Dr. Mei-Po Kwan's talk](https://www.youtube.com/watch?v=hDpa3c5ljsA) on the ethics of spatial data privacy during the COVID-19 pandemic, she emphasizes how compounding identities and vulnerabilities influence data privacy and disease mitigation. She frames her research around five main themes:
 
