@@ -24,3 +24,5 @@ We can boil down the potentially harmful components of spatial data (publicly-av
 - Mei-Po Kwan's talk for the [American Geographical Society](https://www.youtube.com/watch?v=hDpa3c5ljsA)
 - [Professional and Practical Ethics of GIS&T](https://gistbok.ucgis.org/bok-topics/professional-and-practical-ethics-gist)
 - [GIS and Critical Ethics](https://gistbok.ucgis.org/bok-topics/gis-and-critical-ethics)
+- [American Association of Geographers](http://www.aag.org/cs/about_aag/governance/statement_of_professional_ethics)
+- [Ten simple rules for responsible big data research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399)
