@@ -25,4 +25,8 @@ We can boil down the potentially harmful components of spatial data (publicly-av
 - [Professional and Practical Ethics of GIS&T](https://gistbok.ucgis.org/bok-topics/professional-and-practical-ethics-gist)
 - [GIS and Critical Ethics](https://gistbok.ucgis.org/bok-topics/gis-and-critical-ethics)
 - [American Association of Geographers](http://www.aag.org/cs/about_aag/governance/statement_of_professional_ethics)
-- [Ten simple rules for responsible big data research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399)
+- Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., Hollander, R., Koenig, B. A., Metcalf, J., Narayanan, A., Nelson, A., & Pasquale, F. (2017). Ten simple rules for responsible big data research. PLOS Computational Biology, 13(3), e1005399. https://doi.org/10.1371/journal.pcbi.1005399
+
+
+  
+  
