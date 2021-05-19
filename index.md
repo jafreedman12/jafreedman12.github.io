@@ -21,7 +21,7 @@ The course website is found [here](https://gis4dev.github.io).
 3. [Error and Uncertainty in GIS](musings/error-and-uncertainty.md)
 4. [Using Twitter Data for Spatial Analysis](musings/spatial-twitter-blog.md)
 5. [Uncertainty in Humanitarian GIS](musings/uncertainty-humanitarian-gis.md)
-6. [Data privacy in COVID-19 research](musings/spatial-covid-reserach.md)
+6. [Data privacy in COVID-19 research](musings/spatial-covid-research.md)
 
 ### More about me!
 

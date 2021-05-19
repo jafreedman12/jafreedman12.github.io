@@ -4,7 +4,7 @@ title: Discussing Mei-Po Kwan's talk
 date: May 14th, 2021
 ---
 
-# Use the blog post to briefly summarize the talks and to think of good questions to pose in the debate.
+## Summarizing Mei-Po Kwan's talk on spatial data privacy in COVID-19
 
 In [Dr. Mei-Po Kwan's talk](https://www.youtube.com/watch?v=hDpa3c5ljsA) on the ethics of spatial data privacy during the COVID-19 pandemic, she emphasizes how compounding identities and vulnerabilities influence data privacy and disease mitigation. She frames her research around five main themes:
 
@@ -21,3 +21,12 @@ In terms of spatial privacy data, Kwan explores the messiness of coordinating in
 We can boil down the potentially harmful components of spatial data (publicly-available GPS tracks for individuals) into more helpful components (non-specific bluetooth locations to tell you when someone with COVID-19 is in your vicinity or when a space is less crowded) that can help save lives. Similarly, these solutions need to come from the community and cannot be a top-down approach that alienates those who are already vulnerable. Amongst researchers, we need a robust code of ethics that are enforced in order to build trust with vulnerable communities. Geospatial research offers immense potential to uplift the voices of those who are left behind in traditional governmental policies, but also a risk in making these communities more vulnerable. By building trust and committing to using data *only for its expressed purpose*, we can build infrastructure to reduce the effects of disasters on vulnerable populations in the future. Going forward, building social and physical environments that support underrepresented communities can go a long way in improving resilience in times of disaster.
 
 ### Works cited:
+- Mei-Po Kwan's talk for the [American Geographical Society](https://www.youtube.com/watch?v=hDpa3c5ljsA)
+- [Professional and Practical Ethics of GIS&T](https://gistbok.ucgis.org/bok-topics/professional-and-practical-ethics-gist)
+- [GIS and Critical Ethics](https://gistbok.ucgis.org/bok-topics/gis-and-critical-ethics)
+- [American Association of Geographers](http://www.aag.org/cs/about_aag/governance/statement_of_professional_ethics)
+- Zook, M., Barocas, S., Boyd, D., Crawford, K., Keller, E., Gangadharan, S. P., Goodman, A., Hollander, R., Koenig, B. A., Metcalf, J., Narayanan, A., Nelson, A., & Pasquale, F. (2017). Ten simple rules for responsible big data research. PLOS Computational Biology, 13(3), e1005399. https://doi.org/10.1371/journal.pcbi.1005399
+
+
+  
+  
