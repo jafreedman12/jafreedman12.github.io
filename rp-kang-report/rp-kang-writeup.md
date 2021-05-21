@@ -31,16 +31,22 @@ I attempted to change the final output projections of the maps by shifting the p
 
 This replication shows that the visual aesthetics of the map can influence interpretations of the hospital regions
 
+
 Fig 1: Original Hospital Output (Kang et al. 2020)
+
 ![Original output](assets/hospitals_original.png)
 
+
 Fig 2: Chicago hospital catchments, EPSG 4326 (WGS 1984), changed color palette
+
 ![Blue hospital map](assets/hospitals_4326.png)
 
-Fig 3: Chicago hospital catchments, EPSG 32616 (UTM 16 N)
 
+Fig 3: Chicago hospital catchments, EPSG 32616 (UTM 16 N)
+Unable to load this image, see fig. 4. Was unable to get polygons to shift to EPSG32616.
 
 Fig 4: Visualization of primary errors with converting WGS1984 to UTM16N
+
 ![Visualization of primary errors with converting WGS1984 to UTM16N](assets/32616_mistake.png)
 
 
