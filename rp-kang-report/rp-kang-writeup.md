@@ -5,7 +5,7 @@ date: May 20th, 2021
 ---
 Original report and Replication Code: Kang et al. (2020)
 
-Repository for replication found [here](cyberGISx link)
+Repository for replication found [here](https://github.com/jafreedman12/RP-Kang/blob/main/COVID-19Acc_updated.ipynb)
 
 Changes created by Jacob Freedman, with support from GEOG323, especially:
 - Maja Cannavo for her help creating the improved hospital catchment zones
