@@ -4,6 +4,9 @@ title: RP-Kang
 date: May 20th, 2021
 ---
 Original report and Replication Code: Kang et al. (2020)
+
+Repository for replication found [here](cyberGISx link)
+
 Changes created by Jacob Freedman, with support from GEOG323, especially:
 - Maja Cannavo for her help creating the improved hospital catchment zones
 - Sanjana Roy for helping change the color palette of the output maps
@@ -29,16 +32,16 @@ I attempted to change the final output projections of the maps by shifting the p
 This replication shows that the visual aesthetics of the map can influence interpretations of the hospital regions
 
 Fig 1: Original Hospital Output (Kang et al. 2020)
-![Original output](rp-kang-report/hospitals_original.png)
+![Original output](assets/hospitals_original.png)
 
 Fig 2: Chicago hospital catchments, EPSG 4326 (WGS 1984), changed color palette
-![Blue hospital map](rp-kang-report/hospitals_4326.png)
+![Blue hospital map](assets/hospitals_4326.png)
 
 Fig 3: Chicago hospital catchments, EPSG 32616 (UTM 16 N)
 
 
 Fig 4: Visualization of primary errors with converting WGS1984 to UTM16N
-![Visualization of primary errors with converting WGS1984 to UTM16N](rp-kang-report/32616_mistake.png)
+![Visualization of primary errors with converting WGS1984 to UTM16N](assets/32616_mistake.png)
 
 
 ### Conclusions with emphasis on the significance of the reproduction study you just completed. Was the study reproducible, and has the reproduction study increased, decreased, or otherwise refined your belief in the validity of the original study? Conclude with any insights, priorities, or questions for future research.
