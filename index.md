@@ -13,6 +13,7 @@ The course website is found [here](https://gis4dev.github.io).
 2. [Replicating the Rosgen Classification System](re-rosgen_report/HEGSRR-Replication-Report_publish.md)
 3. [Schools and flooding in Dar es Salaam](daressalaam/report.md)
 4. [Reproducing Vulnerability to Climate Change in Malawi](rp-malcomb-report/RP-Malcomb-Report.md)
+5. [Twitter Data of COVID mask removal in Florida](re-dorian-report/florida_covid.md)
 
 ## Musings
 
