@@ -17,6 +17,5 @@ Lastly, there are numerous ethical issues surrounding privacy and if people post
 
 
 ### Works cited:
-Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
-
-Longley, P. A., M. F. Goodchild, D. J. Maguire, and D. W. Rhind. 2008. Geographical information systems and science 2nd ed. Chichester: Wiley.
+- Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
+- Longley, P. A., M. F. Goodchild, D. J. Maguire, and D. W. Rhind. 2008. Geographical information systems and science 2nd ed. Chichester: Wiley.
