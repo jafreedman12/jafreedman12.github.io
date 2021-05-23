@@ -69,7 +69,7 @@ Seeing as the COVID-19 pandemic is not a specific, time-bound catastrophe such a
 
 This analysis helps show how using Twitter data for understanding vulnerability can be best applied to certain time-bounded disaster events. With an ongoing disaster such as the COVID-19 pandemic, certain issues that may have gotten more uptake by the media earlier on in the pandemic (removal of mask mandate in Florida) have become commonplace and receive less attention than before. This strategy of sentiment analysis can be applied to further research of understanding diverging perceptions about public issues (elections, for example).
 
-Future research could expand this analysis into languages other than English, as during this same time frame there was a notable [earthquake in Mexico](cite this) and an ongoing [surge in COVID cases in India] (cite this). Each of these languages have different letters and syntax than English, possibly
+Future research could expand this analysis into languages other than English, as during this same time frame there was a notable [earthquake in Mexico](cite this) and an ongoing [surge in COVID cases in India](https://www.nature.com/articles/d41586-021-01059-y). Each of these languages have different letters and syntax than English, possibly complicating a English Twitter analysis that has fewer accents that other languages.
 
 ## References
 
