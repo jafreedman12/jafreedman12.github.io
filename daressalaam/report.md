@@ -1,6 +1,6 @@
 ---
 title: Analysis of the Resilience of Schools in Subwards of Dar es Salaam
-layout: default
+layout: page
 ---
 # Analysis of the Resilience of Schools in Subwards of Dar es Salaam
 
