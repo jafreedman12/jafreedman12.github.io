@@ -49,21 +49,21 @@ In this analysis, we use the variables listed in **Table 1** to determine the av
 | ------------- | ------------- |
 | HHID  | "Case Identification"  |
 | HV001  | "Cluster number"  |
-|HV002  | Household number  |
+| HV002  | Household number  |
 | HV246A  |"Cattle own"  |
-|HV246D  | "Goats own"  |
-|HV246E  | "Sheep own"  |
-|HV246G  | "Pigs own"  |
+| HV246D  | "Goats own"  |
+| HV246E  | "Sheep own"  |
+| HV246G  | "Pigs own"  |
 | HV248  |"Number of sick people 18-59"  |
 | HV245  | "Hectares for agricultural land"  |
-|HV271  | "Wealth index factor score (5 decimals)"  |
-|HV251  | "Number of orphans and vulnerable children"  |
-|HV207  | “Has Radio”  |
+| HV271  | "Wealth index factor score (5 decimals)"  |
+| HV251  | "Number of orphans and vulnerable children"  |
+| HV207  | “Has Radio”  |
 | HV243A  | “Has a Mobile Telephone”  |
-|HV219  | Sex of Head of Household”  |
-|HV226  | “Type of Cooking Fuel”  |
+| HV219  | Sex of Head of Household”  |
+| HV226  | “Type of Cooking Fuel”  |
 | HV206  |"Has electricty”  |
-|HV204  |“Time to get to Water Source”  |
+| HV204  |“Time to get to Water Source”  |
 
 
 ### Livelihood Zones:
@@ -164,7 +164,7 @@ The calculation and visualization of the Adaptive Capacity was statistically by 
 
 In the original study, the adaptive capacity scores range from 11 - 25, whereas those in the replication go from 0.7-1.07. In the given code written by Kufre Udoh and Joseph Holler, these values were multiplied by 20 to give a closer value to those in the original study. I removed this multiplication by 20 from our reproduction, as I believe that our code should attempt to independently reproduce the results, not match our approximate findings to the original through arbitrary data distortions. As seen below, I ignore this 20x distortion (using a `#` symbol) while still preparing the data for visualization breaks as created in the original study.
 
-```{r joining 2010 capacity to ta and creating breaks for visualization}
+```{r}
 # join mean capacity to traditional authorities
 ta = left_join(
   ta,
@@ -209,7 +209,7 @@ Unlike the comparisons of the adaptive capacity maps, the vulnerability maps cre
 
 I adjusted the function used to calculate vulnerability, especially the equation used in the final output. While the original study said that the vulnerability equation was `Adaptive Capacity + Livelihood Sensitivity - Physical Exposure`, the original equation provided in the reproduction code was `final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20`, this does not account for the livelihood zones, nor the direct subtraction of physical exposure from the resilience scores. I attempted to adjust the resilience calculation to `final = ((geo) * 0.6)) - (drought * 0.20 + flood * 0.20)`, but this yielded an even lower Spearman's Rho coefficient, around 0.06. In the end, I struck a balance between aggregating in the livelihood zone scores and normalizing all the data to the same scale. The final code for calculating the vulnerability score can be seen below.
 
-```{r function to calculate vulnerability}
+```{r}
   # final output (adding component rasters)
   final = ((60-geo) * 0.6) + (drought * 0.2 + flood * 0.2)
 }
