@@ -1,6 +1,7 @@
 ---
-title: Analysis of the Resilience of Schools in Subwards of Dar es Salaam
 layout: page
+title: Analysis of the Resilience of Schools in Subwards of Dar es Salaam
+date: April 2021
 ---
 # Analysis of the Resilience of Schools in Subwards of Dar es Salaam
 
